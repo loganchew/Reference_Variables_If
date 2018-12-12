@@ -4,10 +4,10 @@ int bounce=1;
 
 void setup(){
   size(300,300);
+  background(0);
 }
 
 void draw() {
-  background(0);
   fill(124,255,220);
   ellipse(X,Y, 100,100);
   X=X+bounce;
